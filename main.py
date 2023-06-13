@@ -1,4 +1,4 @@
-import telebot, wikipedia, re
+import telebot, re
 from telebot import types
 bot = telebot.TeleBot('5754103158:AAEuLy2CmsYej6U8-cBXvw');
 
