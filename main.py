@@ -29,15 +29,15 @@ def getwiki(s):
 
 @bot.message_handler(commands=["start"])
 def start(m, res=False):
-    bot.send_message(m.chat.id, f'Hi, {m.from_user.first_name}!To understand how I work, click /help')
+    bot.send_message(m.chat.id, f'Hi, {m.from_user.first_name}!Давай начнем шифрование, дай мне файл и я его зашифрую! /help')
 
 @bot.message_handler(commands=["help"])
 def help(m, res=False):
-     bot.send_message(m.chat.id, "I am a Bot that searches Wikipedia for information by word.\n I'm still just learning and may not know some words.\n I wish you a productive search!")
+     bot.send_message(m.chat.id, "Я бот который шифрует данные твои документы, но это не точно)")
 
 @bot.message_handler(commands=["support"])
 def support(m, res=False):
-    bot.send_message(m.chat.id, "If there is a problem, write to him: @flmff")
+    bot.send_message(m.chat.id, "Если есть проблемы свяжись с моим создателем: @flmff")
 
 
 
